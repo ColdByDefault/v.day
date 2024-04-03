@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+}
+
+.title{
+    color: white;
+    width: 400px;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,.5);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+span{
+    color: #fa45e2;
+}
+
+p{
+    color: rgb(224, 48, 240);
+    font-size: larger;
+    text-align: center;
+}
+
+button{
+  padding: 25px 30px;
+  background-color: transparent;
+  color: #fa45e2;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 50px;
+  font-size: 2rem;
+}
+
+button:hover{
+    background: #fa45e2;
+    color: #050801;
+    box-shadow: 0 0 5px #f51bd8,
+                0 0 25px #f51bd8,
+                0 0 50px #f51bd8,
+                0 0 200px #f51bd8;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+h1:hover{
+    border: 2px solid #e67bd8;
+    transition: ease-in-out .9s;
+    color: #fa45e2;
+    box-shadow: 0px 0px 80px #fa45e2,
+                0px 0px 100px #fa45e25e;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #f5f5f5) 
+}
+
